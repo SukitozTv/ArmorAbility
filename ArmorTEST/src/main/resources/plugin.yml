@@ -1,0 +1,8 @@
+name: ArmorTEST
+main: me.flukky.Main
+version: 1.0
+api-version: 1.19
+commands:
+  givecustomarmor:
+    description: give armor ability
+    usage: /givecustomarmor <armor_name>

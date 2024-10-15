@@ -1,0 +1,120 @@
+armorAbilities:
+  SuperHelmet:
+    material: DIAMOND_HELMET
+    armor: 3  # ค่ารักษา
+    toughness: 1  # ความแข็งแรง
+    customModelData: 1001  # Custom Model Data
+    abilities:
+      - name: SPEED
+        duration: 60  # ระยะเวลาของเอฟเฟกต์ (วินาที)
+        amplifier: 1  # ระดับของเอฟเฟกต์
+      - name: JUMP_BOOST
+        duration: 30
+        amplifier: 2
+      - name: EXTRA_HEARTS
+        duration: 0  # ตั้งให้เป็น 0 เพื่อเพิ่มหัวใจถาวร
+        amount: 10  # จำนวนหัวใจที่เพิ่ม
+        amplifier: 1
+    lore: 
+      - "ความเร็วและกระโดดพิเศษ"
+      - "เกราะสุดยอดจากตำนาน"
+
+  UltimateChestplate:
+    material: DIAMOND_CHESTPLATE
+    armor: 8  # ค่ารักษา
+    toughness: 3  # ความแข็งแรง
+    customModelData: 1002  # Custom Model Data
+    abilities:
+      - name: DAMAGE_RESISTANCE
+        duration: 120
+        amplifier: 2
+      - name: REGENERATION
+        duration: 45
+        amplifier: 1
+      - name: EXTRA_HEARTS
+        duration: 0  # ตั้งให้เป็น 0 เพื่อเพิ่มหัวใจถาวร
+        amount: 3  # จำนวนหัวใจที่เพิ่ม
+        amplifier: 1
+    lore:
+      - "เกราะแห่งความแข็งแกร่ง"
+      - "ลดความเสียหายและฟื้นฟู HP"
+
+  TitanLeggings:
+    material: DIAMOND_LEGGINGS
+    armor: 6  # ค่ารักษา
+    toughness: 2  # ความแข็งแรง
+    customModelData: 1003  # Custom Model Data
+    abilities:
+      - name: SLOW_FALLING
+        duration: 90
+        amplifier: 1
+      - name: HASTE
+        duration: 45
+        amplifier: 1
+    lore:
+      - "ให้คุณมีอิสระในการเคลื่อนไหว"
+      - "มีกำลังในการขุดที่สูงขึ้น"
+
+  GuardianBoots:
+    material: DIAMOND_BOOTS
+    armor: 3  # ค่ารักษา
+    toughness: 1  # ความแข็งแรง
+    customModelData: 1004  # Custom Model Data
+    abilities:
+      - name: WATER_BREATHING
+        duration: 120
+        amplifier: 1
+      - name: FEATHER_FALL
+        duration: 60
+        amplifier: 1
+    lore:
+      - "เกราะที่ช่วยให้หายใจใต้น้ำ"
+      - "ลดความเสียหายจากการตก"
+
+  FlameShield:
+    material: NETHERITE_CHESTPLATE
+    armor: 8  # ค่ารักษา
+    toughness: 4  # ความแข็งแรง
+    customModelData: 1005  # Custom Model Data
+    abilities:
+      - name: FIRE_RESISTANCE
+        duration: 180
+        amplifier: 1
+      - name: INCREASED_DAMAGE
+        duration: 30
+        amplifier: 1
+    lore:
+      - "ความต้านทานไฟที่ทรงพลัง"
+      - "เพิ่มความเสียหายในการต่อสู้"
+
+  MysticHelmet:
+    material: GOLDEN_HELMET
+    armor: 2  # ค่ารักษา
+    toughness: 0  # ความแข็งแรง
+    customModelData: 1006  # Custom Model Data
+    abilities:
+      - name: NIGHT_VISION
+        duration: 120
+        amplifier: 1
+      - name: LUCK
+        duration: 60
+        amplifier: 2
+    lore:
+      - "มอบสายตาในความมืด"
+      - "เพิ่มโชคลาภในการสำรวจ"
+
+  ShadowBoots:
+    material: LEATHER_BOOTS
+    armor: 1  # ค่ารักษา
+    toughness: 0  # ความแข็งแรง
+    customModelData: 1007  # Custom Model Data
+    abilities:
+      - name: INVISIBILITY
+        duration: 30
+        amplifier: 1
+      - name: SPEED
+        duration: 45
+        amplifier: 2
+    lore:
+      - "มอบความลับให้คุณ"
+      - "เคลื่อนไหวได้อย่างรวดเร็วและเงียบสงบ"
